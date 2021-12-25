@@ -2,6 +2,9 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {},
+    colors: {
+      "primary": "#13A2E2",
+    }
   },
   variants: {},
   plugins: [],
