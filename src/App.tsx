@@ -25,15 +25,18 @@ function App() {
             <AvailableOptions step={step} cost={cost} setCost={setCost} />
           </div>
           <div className='space-x-5 text-primary text-xl flex justify-center font-bold'>
-            <button className='disabled:text-gray-400' disabled={!step} onClick={handlePrevious}>Previous</button>
+            <button className='disabled:text-gray-400 ' disabled={!step} onClick={handlePrevious}>Previous</button>
+            <div className='w-52 bg-gray-200 h-3 mt-3 rounded'>
+              <div className='bg-blue-600 h-3 rounded' style={{ width: step === 0 ? '33%' : step === 1 ? '66%' : '100%' }}></div>
+            </div>
             <button className='disabled:text-gray-400' disabled={step > 1} onClick={handleNext}>Next</button>
           </div>
         </div>
         <div className="w-1/3">
           <EstimatedCost cost={cost} />
         </div>
-      </div>
-    </div>
+      </div >
+    </div >
   );
 }
 
