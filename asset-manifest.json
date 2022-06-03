@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Website-Builder/static/css/main.aba894a6.css",
+    "main.js": "/Website-Builder/static/js/main.7f1b3d3d.js",
+    "index.html": "/Website-Builder/index.html",
+    "main.aba894a6.css.map": "/Website-Builder/static/css/main.aba894a6.css.map",
+    "main.7f1b3d3d.js.map": "/Website-Builder/static/js/main.7f1b3d3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aba894a6.css",
+    "static/js/main.7f1b3d3d.js"
+  ]
+}
