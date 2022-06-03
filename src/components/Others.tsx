@@ -8,7 +8,7 @@ const Others: React.FC<{ cost: costType, setCost: any }> = ({ setCost, cost }) =
 
     useEffect(() => {
         setCost({ ...cost, others: newUX + payment + (pages * 75) })
-    }, [ newUX, payment, pages ])
+    }, [ newUX, payment, pages, setCost, cost ])
 
     return (
         <div className='h-full text-center'>
